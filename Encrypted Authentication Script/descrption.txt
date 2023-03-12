@@ -1,0 +1,2 @@
+This script allows for secure authentication by encrypting user credentials (username and password) with a secret key using the Fernet module from the cryptography library. 
+The encrypted credentials are stored in a file and later decrypted for authentication without ever exposing the original plaintext credentials.
