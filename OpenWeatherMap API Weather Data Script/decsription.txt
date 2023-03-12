@@ -1,3 +1,13 @@
 This script allows the user to retrieve current weather data for a specified location using the OpenWeatherMap API. 
 The script takes input for latitude and longitude, and uses these values to query the API and retrieve weather data in JSON format. 
 The script then parses the JSON data to extract and display the name, temperature maximum, and pressure of the specified location.
+
+Flow:
+
+The script prompts the user to enter the latitude and longitude of the location for which they want to retrieve weather data.
+The script reads in the user's input for latitude and longitude.
+The script reads the user's API key from a file located at C:\temp\api_key.txt.
+The script uses the requests module to send a GET request to the OpenWeatherMap API, passing in the user's API key and the specified latitude and longitude.
+If the API returns a valid response, the script uses the json module to parse the response and extract the relevant weather data.
+The script then displays the name, temperature maximum, and pressure of the specified location to the user.
+If the API returns an error response, the script returns a message indicating that the weather data could not be retrieved.
