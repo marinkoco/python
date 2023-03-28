@@ -18,6 +18,15 @@ The resulting text is saved to a text file.
 The text is tokenized using NLTK, and the resulting tokenized text is saved to a separate file.
 The script outputs the filename of the tokenized text file to the console.
 
+Example run
+
+>>>.\conver_VAT.py
+Enter the name of the video file (with extension): my_video.mp4
+...
+...
+...
+Output written to my_video_tokenized.txt
+
 Note 1
 Video file has to be in the same folder as the script.
 Note2
