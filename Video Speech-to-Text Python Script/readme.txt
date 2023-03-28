@@ -18,5 +18,7 @@ The resulting text is saved to a text file.
 The text is tokenized using NLTK, and the resulting tokenized text is saved to a separate file.
 The script outputs the filename of the tokenized text file to the console.
 
-Note
+Note 1
+Video file has to be in the same folder as the script.
+Note2
 Google's speech recognition service is used in this script, which requires an internet connection. If the service is unavailable, the script will not be able to perform speech recognition on the audio.
