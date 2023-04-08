@@ -1,0 +1,7 @@
+Script Name: command_searcher.py
+Description: A Python script that allows you to search for keywords in text files in a directory and its subdirectories.
+Version: 1.0
+Author: Ivan
+Contact: marinkoco@gmail.com
+License: N/A
+Portable executable created with 'pyinstaller' is in 'dist' folder
